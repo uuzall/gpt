@@ -10,6 +10,6 @@ It is heavily guided by Andrej Karpathy's video (https://www.youtube.com/watch?v
 Apart from the files, there are several folders: 
 * The 'data' folder contains the data. 
 * The 'generations' folder contains all the generations saved from 'x' intervals of training. You can go through them to see how good they are at each interval. 
-* The 'models' folder contains the best performing model (based on the lowest loss in the validation dataset). 
+* If you use this repo, you should create a 'models' folder that stores the best performing model (based on the lowest loss in the validation dataset). 
 
 P.S. I do not remember why I saved the 'val_losses.pkl' file but just know that it's there. 
